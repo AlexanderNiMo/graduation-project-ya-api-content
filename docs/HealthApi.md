@@ -1,4 +1,4 @@
-# content.HealthApi
+# content_api.HealthApi
 
 All URIs are relative to */*
 
@@ -15,12 +15,12 @@ Health Check
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.HealthApi()
+api_instance = content_api.HealthApi()
 
 try:
     # Health Check

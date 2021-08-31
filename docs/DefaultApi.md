@@ -1,4 +1,4 @@
-# content.DefaultApi
+# content_api.DefaultApi
 
 All URIs are relative to */*
 
@@ -30,12 +30,12 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 film_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 
 try:
@@ -78,12 +78,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 film_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 
 try:
@@ -126,12 +126,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 filter_genre = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | filter on genre (optional)
 sort = 'sort_example' # str | sort on filed (order: \"-\" before filed name is desc) (optional)
 page_size = 50 # int | Page size (optional) (default to 50)
@@ -180,12 +180,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 filter_genre = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | filter on genre (optional)
 sort = 'sort_example' # str | sort on filed (order: \"-\" before filed name is desc) (optional)
 page_size = 50 # int | Page size (optional) (default to 50)
@@ -234,12 +234,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 genre_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 
 try:
@@ -282,12 +282,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 genre_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 
 try:
@@ -330,12 +330,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 sort = 'sort_example' # str | sort on filed (order: \"-\" before filed name is desc) (optional)
 page_size = 50 # int | Page size (optional) (default to 50)
 page_number = 1 # int | Page number (optional) (default to 1)
@@ -382,12 +382,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 sort = 'sort_example' # str | sort on filed (order: \"-\" before filed name is desc) (optional)
 page_size = 50 # int | Page size (optional) (default to 50)
 page_number = 1 # int | Page number (optional) (default to 1)
@@ -434,12 +434,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 person_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 
 try:
@@ -482,12 +482,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 person_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 
 try:
@@ -530,12 +530,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 person_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 page_size = 50 # int | Page size (optional) (default to 50)
 page_number = 1 # int | Page number (optional) (default to 1)
@@ -582,12 +582,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 person_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
 page_size = 50 # int | Page size (optional) (default to 50)
 page_number = 1 # int | Page number (optional) (default to 1)
@@ -634,12 +634,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 query = 'query_example' # str | search text_query
 page_size = 50 # int | Page size (optional) (default to 50)
 page_number = 1 # int | Page number (optional) (default to 1)
@@ -686,12 +686,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import content
-from content.rest import ApiException
+import content_api
+from content_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = content.DefaultApi()
+api_instance = content_api.DefaultApi()
 query = 'query_example' # str | search text_query
 page_size = 50 # int | Page size (optional) (default to 50)
 page_number = 1 # int | Page number (optional) (default to 1)
