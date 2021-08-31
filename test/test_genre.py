@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.genre import Genre  # noqa: E501
-from swagger_client.rest import ApiException
+import content
+from content.models.genre import Genre  # noqa: E501
+from content.rest import ApiException
 
 
 class TestGenre(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestGenre(unittest.TestCase):
     def testGenre(self):
         """Test Genre"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.genre.Genre()  # noqa: E501
+        # model = content.models.genre.Genre()  # noqa: E501
         pass
 
 

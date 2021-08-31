@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.any_of_full_person_role import AnyOfFullPersonRole  # noqa: E501
-from swagger_client.rest import ApiException
+import content
+from content.models.any_of_full_person_role import AnyOfFullPersonRole  # noqa: E501
+from content.rest import ApiException
 
 
 class TestAnyOfFullPersonRole(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAnyOfFullPersonRole(unittest.TestCase):
     def testAnyOfFullPersonRole(self):
         """Test AnyOfFullPersonRole"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.any_of_full_person_role.AnyOfFullPersonRole()  # noqa: E501
+        # model = content.models.any_of_full_person_role.AnyOfFullPersonRole()  # noqa: E501
         pass
 
 

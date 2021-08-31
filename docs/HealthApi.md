@@ -1,4 +1,4 @@
-# swagger_client.HealthApi
+# content.HealthApi
 
 All URIs are relative to */*
 
@@ -15,12 +15,12 @@ Health Check
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import content
+from content.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HealthApi()
+api_instance = content.HealthApi()
 
 try:
     # Health Check

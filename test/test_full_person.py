@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.full_person import FullPerson  # noqa: E501
-from swagger_client.rest import ApiException
+import content
+from content.models.full_person import FullPerson  # noqa: E501
+from content.rest import ApiException
 
 
 class TestFullPerson(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestFullPerson(unittest.TestCase):
     def testFullPerson(self):
         """Test FullPerson"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.full_person.FullPerson()  # noqa: E501
+        # model = content.models.full_person.FullPerson()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.http_validation_error import HTTPValidationError  # noqa: E501
-from swagger_client.rest import ApiException
+import content
+from content.models.http_validation_error import HTTPValidationError  # noqa: E501
+from content.rest import ApiException
 
 
 class TestHTTPValidationError(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestHTTPValidationError(unittest.TestCase):
     def testHTTPValidationError(self):
         """Test HTTPValidationError"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.http_validation_error.HTTPValidationError()  # noqa: E501
+        # model = content.models.http_validation_error.HTTPValidationError()  # noqa: E501
         pass
 
 

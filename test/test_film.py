@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.film import Film  # noqa: E501
-from swagger_client.rest import ApiException
+import content
+from content.models.film import Film  # noqa: E501
+from content.rest import ApiException
 
 
 class TestFilm(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestFilm(unittest.TestCase):
     def testFilm(self):
         """Test Film"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.film.Film()  # noqa: E501
+        # model = content.models.film.Film()  # noqa: E501
         pass
 
 
