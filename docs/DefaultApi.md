@@ -18,6 +18,8 @@ Method | HTTP request | Description
 [**get_person_film_content_api_api_v1_person_person_id_film_get_0**](DefaultApi.md#get_person_film_content_api_api_v1_person_person_id_film_get_0) | **GET** /content_api/api/v1/person/{person_id}/film/ | Фильмы человека
 [**search_films_content_api_api_v1_film_search_get**](DefaultApi.md#search_films_content_api_api_v1_film_search_get) | **GET** /content_api/api/v1/film/search/ | Поиск кинопроизведений
 [**search_persons_content_api_api_v1_person_search_get**](DefaultApi.md#search_persons_content_api_api_v1_person_search_get) | **GET** /content_api/api/v1/person/search/ | Поиск по людям
+[**short_film_detail_content_api_api_v1_film_short_film_id_get**](DefaultApi.md#short_film_detail_content_api_api_v1_film_short_film_id_get) | **GET** /content_api/api/v1/film/short/{film_id}/ | Кинопроизведение
+[**short_film_detail_content_api_api_v1_film_short_film_id_get_0**](DefaultApi.md#short_film_detail_content_api_api_v1_film_short_film_id_get_0) | **GET** /content_api/api/v1/film/short/{film_id}/ | Кинопроизведение
 
 # **film_details_content_api_api_v1_film_film_id_get**
 > FilmDetail film_details_content_api_api_v1_film_film_id_get(film_id)
@@ -715,6 +717,102 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**list[FullPerson]**](FullPerson.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **short_film_detail_content_api_api_v1_film_short_film_id_get**
+> FilmDetail short_film_detail_content_api_api_v1_film_short_film_id_get(film_id)
+
+Кинопроизведение
+
+Краткое описание кинопроизведения
+
+### Example
+```python
+from __future__ import print_function
+import time
+import content_api
+from content_api.rest import ApiException
+from pprint import pprint
+
+# create an instance of the API class
+api_instance = content_api.DefaultApi()
+film_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
+
+try:
+    # Кинопроизведение
+    api_response = api_instance.short_film_detail_content_api_api_v1_film_short_film_id_get(film_id)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->short_film_detail_content_api_api_v1_film_short_film_id_get: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **film_id** | [**str**](.md)|  | 
+
+### Return type
+
+[**FilmDetail**](FilmDetail.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **short_film_detail_content_api_api_v1_film_short_film_id_get_0**
+> FilmDetail short_film_detail_content_api_api_v1_film_short_film_id_get_0(film_id)
+
+Кинопроизведение
+
+Краткое описание кинопроизведения
+
+### Example
+```python
+from __future__ import print_function
+import time
+import content_api
+from content_api.rest import ApiException
+from pprint import pprint
+
+# create an instance of the API class
+api_instance = content_api.DefaultApi()
+film_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | 
+
+try:
+    # Кинопроизведение
+    api_response = api_instance.short_film_detail_content_api_api_v1_film_short_film_id_get_0(film_id)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->short_film_detail_content_api_api_v1_film_short_film_id_get_0: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **film_id** | [**str**](.md)|  | 
+
+### Return type
+
+[**FilmDetail**](FilmDetail.md)
 
 ### Authorization
 
