@@ -730,7 +730,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **short_film_detail_content_api_api_v1_film_short_film_id_get**
-> FilmDetail short_film_detail_content_api_api_v1_film_short_film_id_get(film_id)
+> Film short_film_detail_content_api_api_v1_film_short_film_id_get(film_id)
 
 Кинопроизведение
 
@@ -764,7 +764,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**FilmDetail**](FilmDetail.md)
+[**Film**](Film.md)
 
 ### Authorization
 
@@ -778,7 +778,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **short_film_detail_content_api_api_v1_film_short_film_id_get_0**
-> FilmDetail short_film_detail_content_api_api_v1_film_short_film_id_get_0(film_id)
+> Film short_film_detail_content_api_api_v1_film_short_film_id_get_0(film_id)
 
 Кинопроизведение
 
@@ -812,7 +812,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**FilmDetail**](FilmDetail.md)
+[**Film**](Film.md)
 
 ### Authorization
 
